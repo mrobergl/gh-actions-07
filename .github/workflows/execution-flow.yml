@@ -83,5 +83,5 @@ jobs:
       - name: Output information
         run: |
           echo "Something went wrong"
-          echo "${{ github }}"
+          echo "${{ github.workflow }} workflow failed on ${{ github.ref }} branch."
       
